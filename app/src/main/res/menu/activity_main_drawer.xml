@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/pinChange"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Change PIN" />
+        <item
+            android:id="@+id/writeToDev"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Write to Developer" />
+        <item
+            android:id="@+id/sendFeedback"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Feedback" />
+    </group>
+
+    <item android:title="Sharing Is Caring ">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+        </menu>
+    </item>
+
+</menu>

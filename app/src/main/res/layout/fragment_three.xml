@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/quick1"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/blue_grey_lighten"
+                    android:onClick="openAccount"
+                    android:text="Ledger Account"
+                    android:textColor="@color/md_white" />
+
+                <Button
+                    android:id="@+id/quick2"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/brown"
+                    android:onClick="openCategory"
+                    android:text="Category"
+                    android:textColor="@color/md_white" />
+
+                <Button
+                    android:id="@+id/quick3"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/md_indigoA100"
+                    android:onClick="openAverage"
+                    android:text="Average I/E"
+                    android:textColor="@color/md_white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/quick4"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorBlueDark"
+                    android:text="Notes"
+                    android:textColor="@color/md_white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/quick5"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/orange_darken_4"
+                    android:onClick="openMonth"
+                    android:text="Monthly I/E"
+                    android:textColor="@color/md_white" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/quick6"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:text="Ratios"
+                    android:textColor="@color/md_white" />
+
+                <Button
+                    android:id="@+id/quick7"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/material_cyan800"
+                    android:text="Cash I/E"
+                    android:textColor="@color/md_white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/quick8"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/material_deeppurpleA200"
+                    android:text="Wallet I/E"
+                    android:textColor="@color/md_white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/quick9"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/blue_grey"
+                    android:text="Bank I/E"
+                    android:textColor="@color/md_white"
+                    android:visibility="invisible" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/quick10"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="Set Goals"
+                    android:textColor="@color/md_white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/quick11"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorBlueLight"
+                    android:onClick="openFullStatement"
+                    android:text="Full Statement"
+                    android:textColor="@color/md_white" />
+
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="#000" />
+
+            <TableRow
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/quick12"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/material_deeppurple300"
+                    android:onClick="chnagePIN"
+                    android:text="Change PIN"
+                    android:textColor="@color/md_white" />
+
+                <Button
+                    android:id="@+id/quick13"
+                    style="@style/QuickButtons"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/md_orangeA400"
+                    android:onClick="logout"
+                    android:text="Logout"
+                    android:textColor="@color/md_white" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

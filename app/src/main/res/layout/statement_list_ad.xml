@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/st_date"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="07"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/st_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/st_date"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="TextView"
+            android:textAlignment="textStart"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/st_month"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/st_date"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="March"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/st_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/st_title"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/st_date"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Time: "
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/st_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/st_time"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/st_date"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="Description: "
+            android:textAlignment="textStart"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/st_year"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/st_month"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1996"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+
+        <View
+            android:id="@+id/sap1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/st_desc"
+            android:layout_marginTop="3dp"
+            android:background="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/st_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sap1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="INCOME"
+            android:textAlignment="textStart"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/st_amt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/sap1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="100"
+            android:textAlignment="textStart"
+            android:textSize="18dp" />
+
+        <View
+            android:id="@+id/sap2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/st_amt"
+            android:layout_marginTop="3dp"
+            android:background="@color/material_red700" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlueLight">#69D2E7</color>
+    <color name="colorBlueDark">#15A0DB</color>
+    <color name="colorGray">#E0E0E0</color>
+    <color name="blue_grey">#607d8b</color>
+    <color name="blue_grey_lighten">#b0bec5</color>
+    <color name="blue_grey_lighten_5">#eceff1</color>
+    <color name="orange_darken_4">#bf360c</color>
+    <color name="brown">#795548</color>
+    <color name="brown_darken_2">#5d4037</color>
+
+    <color name="md_indigoA100">#ff8c9eff</color>
+
+    <color name="md_lightblueA100">#ff80d8ff</color>
+
+    <color name="md_cyanA700">#ff00b8d4</color>
+
+    <color name="md_teal800">#ff00695c</color>
+
+    <color name="md_orangeA400">#ffff9100</color>
+
+    <color name="md_black">#ff000000</color>
+    <color name="md_white">#ffffffff</color>
+
+    <color name="material_red700">#ffd32f2f</color>
+
+    <color name="material_deeppurple300">#ff9575cd</color>
+    <color name="material_deeppurpleA200">#ff7c4dff</color>
+
+    <color name="material_cyan800">#ff00838f</color>
+
+</resources>
