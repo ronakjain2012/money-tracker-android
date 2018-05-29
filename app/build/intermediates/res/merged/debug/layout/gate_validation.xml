@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:editable="false"
+        android:enabled="false"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="40dp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="416dp"
+        android:padding="15dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/k1"
+                style="@style/GateButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/k2"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/k3"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/k4"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/k5"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/k6"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/k7"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/k8"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/k9"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/k10"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/k0"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:text="0" />
+
+            <ImageButton
+                android:id="@+id/k11"
+                style="@style/GateButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:src="@mipmap/backspace_outline" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/k12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:onClick="keyFunction"
+                android:paddingRight="15dp"
+                android:text="Forget PIN ?"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/colorAccent"
+                android:textSize="18dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
